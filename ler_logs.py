@@ -2,7 +2,7 @@ import os
 
 from typing import List
 
-FILE_NAME = "access.log"
+FILE_NAME: str = "access.log"
 observed_ips: List[str] = []
 
 def get_absolute_file_path(file_name: str) -> str:
